@@ -161,6 +161,69 @@ Example questions:
 
 PMO+ can generate lightweight text reports and formatted Word reports.
 
+## Voice commands
+
+Begin commands with **“PMO plus”**. Speak clearly and allow a brief pause after the wake phrase.
+
+### Open and control PMO+
+
+```text
+PMO plus open
+PMO plus start
+PMO plus minimize
+PMO plus maximise
+PMO plus restore
+PMO plus settings
+PMO plus close settings
+```
+
+Both `minimize`/`minimise` and `maximize`/`maximise` are supported.
+
+### Project connections
+
+```text
+PMO plus connect to ADO
+PMO plus connect to Azure DevOps
+PMO plus sync ADO
+PMO plus sync Azure DevOps
+PMO plus connect to SharePoint
+PMO plus sync SharePoint
+```
+
+### Knowledge and reporting
+
+```text
+PMO plus generate report
+PMO plus refresh knowledge
+```
+
+### Audio controls
+
+```text
+PMO plus mute microphone
+PMO plus mute voice
+PMO plus mute speaker
+```
+
+`Mute voice` or `mute speaker` stops audible PMO+ responses while voice-command listening remains active. `Mute microphone` disables listening completely; use the microphone button in the interface to enable it again.
+
+### Close PMO+
+
+```text
+PMO plus exit
+PMO plus quit
+PMO plus close
+PMO plus close everything
+```
+
+These commands close the application rather than merely minimising it.
+
+### Dictate a project question
+
+The continuous listener recognises the configured PMO+ commands above. To speak a free-form project question, select the microphone button beside the question field, wait for the listening indicator, then dictate the question. PMO+ places the recognised text into the project discussion for processing.
+
+Voice functionality requires Windows microphone permission and Windows speech components. If voice commands do not start, open **Windows Settings → Privacy & security → Microphone**, allow desktop applications to access the microphone, and restart PMO+.
+
 ## If Windows still blocks the application
 
 First confirm that the ZIP was unblocked **before** extraction.
@@ -201,4 +264,4 @@ PMO+ is an independent Light Edition project and is not endorsed by Microsoft, O
 ---
 
 **Designed and developed by Sandeela Waseem**  
-Project and Programme Management · Transformation Delivery · AI-Enabled PMO
+Transformation Delivery · AI-Enabled Project Management
